@@ -45,33 +45,6 @@ const Card = (article) => {
 });
 console.log(mainCard);
   return mainCard
-  
-// const fCard = document.createElement('div');
-//   const fHeadline = document.createElement('div');
-//   const fAuthor = document.createElement('div');
-//   const fImgContainer = document.createElement('div');
-//   const fImg = document.createElement('img');
-//   const fAuthorName = document.createElement('span');
-
-//   fCard.classList.add('card');
-//   fHeadline.classList.add('headline');
-//   fAuthor.classList.add('author');
-//   fImgContainer.classList.add('img-container');
-  
-//   fHeadline.textContent = article.headline;
-//   fImg.src = article.authorPhoto;
-//   fAuthorName.textContent =`By ${article.authorName}`;
-
-//   fCard.appendChild(fHeadline);
-//   fCard.appendChild(fAuthor);
-//   fAuthor.appendChild(fImgContainer);
-//   fImgContainer.appendChild(fImg);
-//   fAuthor.appendChild(fAuthorName);
-
-//   fCard.addEventListener('click', function() {
-//     console.log(article.headline);
-//   });
-//   return fCard;
 }
 
 const cardAppender = (selector) => {
